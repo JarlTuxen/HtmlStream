@@ -14,7 +14,7 @@ public class Main {
         BufferedReader reader = new BufferedReader(
                 new InputStreamReader(connection.openStream()));
 
-        String input = "";
+        String input = reader.readLine();
         //iterer så længe der læses linier fra reader
         while (input != null){
             //udskriv hvad er læst - første gang en tom linie
